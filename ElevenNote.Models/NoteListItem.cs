@@ -16,7 +16,7 @@ namespace ElevenNote.Models
         public bool IsStarred { get; set; }
         [Display(Name = "Created")]
         public DateTimeOffset CreatedUtc { get; set; }
-
+        public int CatID { get; set; }
         public override string ToString() => Title;
     }
 }
